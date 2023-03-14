@@ -1,0 +1,46 @@
+body{
+    background: rgb(219, 236, 243);
+}
+header{
+    text-align: center;
+    color: goldenrod;
+    
+}
+.underline{
+    width: 120px;
+    height: 2px;
+    background-color: goldenrod;
+    margin: auto;
+}
+.buttons{
+    display: flex;
+    margin-top: 35px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.buttons button{
+    padding: 3px 12px;
+    margin-left: 20px;
+    background: none;
+    border: 1px solid goldenrod;
+    color: goldenrod;
+    border-radius: 5px;
+}
+.container{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.container-content{
+    width: 40%;
+    display: flex;
+    gap: 2rem;
+    margin-top: 30px;
+}
+.container-content img{
+    border: 3px solid goldenrod;
+    border-radius: 5px;
+}
